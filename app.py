@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.sidebar.title("Whatsapp Chat Analyzer")
-st.sidebar.title("By Vaibhav Chauhan")
+
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
@@ -185,3 +185,5 @@ if uploaded_file is not None:
         second_and_third_messages = df.head(5)  # Select rows 2 and 3
         for idx, row in second_and_third_messages.iterrows():
             st.write(f"{row['date']} - {row['user']}: {row['message']}")
+
+st.sidebar.title("By Vaibhav Chauhan")
