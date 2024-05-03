@@ -6,4 +6,3 @@ nltk
 wordcloud
 urlextract
 emoji
-re
