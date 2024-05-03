@@ -1,0 +1,8 @@
+pandas
+seaborn
+matplotlib
+nltk
+wordcloud
+urlextract
+emoji
+re
